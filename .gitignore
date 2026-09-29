@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data
+data/processed/
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Generated results
+outputs/
+artifacts/
+logs/
+
+# MLflow
+mlruns/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# MLflow local database
+mlflow.db
